@@ -1,0 +1,117 @@
+.SpecialsBox{
+    margin-bottom:.5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    padding:0 10px;
+    background:#eee;
+    width:100%;
+    .Spacials-Top{
+        width:100%;
+        height:1.71rem;
+        // display:flex;
+        // justify-content:space-between;
+        border-bottom:1px solid #ccc;
+        background:#fff;
+        position: relative;
+        .hindex-Top{
+            width:.56rem;
+            height:.36rem;
+            background:#ad5434;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            position: absolute;
+            left:10px;
+            top:10px;
+            span{
+                font-size:16px;
+                color:#fff;
+            }
+        }
+        .hindex-center{
+            width:1.7rem;
+            height:1.7rem;
+            position: absolute;
+            left:0;
+            top:0;
+            right:0;
+            bottom:0;
+            margin:0 auto;
+            img{
+                width:100%;
+            }
+        }
+        .hindex-bottom{
+            width:.7rem;
+            height:.24rem;
+            margin:10px 10px 0 0;
+            position: absolute;
+            right:2px;
+            top:2px;
+            img{
+                width:100%;
+            }
+        }
+    }
+    .Spacials-Bottom{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-flow:column;
+        width:100%;
+        height:.55rem;
+        background:#fff;
+        margin-bottom:10px;
+        .Spacials-Bot-top{
+            // display:flex;
+            justify-content:center;
+            width:100%;
+            height:.21rem;
+            margin:5px 0;
+            white-space:nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align:center;
+        }
+        .Spacials-Bot-Bot{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            width:100%;
+            height:.24rem;
+            color: #424242;
+            font-size:.16rem;
+            .tipBox{
+                width:1rem;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                p{
+                    font-size:.18rem;
+                    color: #e93131;
+                    font-family: "Arial";
+                    margin-left:5px;
+                }
+                span{
+                    font-size:.10rem;
+                    color: #8e8e8e;
+                    font-family: "Arial";
+                    margin-top:5px;
+                    text-decoration:line-through;
+                }
+                i{
+                    background-color: #ff8400;
+                    color:#fff;
+                }
+            }
+            .kouBox{
+                font-size:18px;
+                color:red;
+                font-weight:bold;
+                margin-right:10px;
+            }
+        }
+    }
+}

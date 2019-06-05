@@ -1,0 +1,36 @@
+.ContentBox{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    padding:10px;
+    background:#eee;
+    .content-Top{
+        width:100%;
+        background:#fff;
+        img{
+            width:100%;
+        }
+    }
+    .content-Bottom{
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        height:35px;
+        padding:10px;
+        background:#fff;
+        margin-bottom:15px;
+        p{
+            color: #424242;
+            font-size: 16px;
+        }
+        span{
+            font-size:18px;
+            color:#e93131;
+            font-weight:bold;
+            font-family: "Arial";
+        }
+    }
+}
